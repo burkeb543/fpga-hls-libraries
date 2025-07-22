@@ -16,3 +16,4 @@ set_parameter SOC_FABRIC_BASE_ADDRESS     0x60000000
 set_parameter SOC_FABRIC_SIZE             0x40000
 set_parameter SOC_CPU_MEM_BASE_ADDRESS    0x80000000
 set_parameter SOC_CPU_MEM_SIZE            0x60000000
+
