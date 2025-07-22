@@ -11,7 +11,7 @@ set_parameter SOC_AXI_INITIATOR           BVF_RISCV_SUBSYSTEM:FIC_0_AXI4_INITIAT
 set_parameter SOC_AXI_TARGET              BVF_RISCV_SUBSYSTEM:FIC_0_AXI4_TARGET
 set_parameter SOC_CLOCK                   CLOCKS_AND_RESETS:FIC_0_ACLK
 set_parameter SOC_RESET                   CLOCKS_AND_RESETS:FIC_0_FABRIC_RESET_N
-set_parameter SOC_FABRIC_BASE_ADDRESS     0x60000000
+set_parameter SOC_FABRIC_BASE_ADDRESS     0x60100000
 set_parameter SOC_FABRIC_SIZE             0x40000
 set_parameter SOC_CPU_MEM_BASE_ADDRESS    0x80000000
 set_parameter SOC_CPU_MEM_SIZE            0x60000000
