@@ -8,6 +8,7 @@ SHLS_LIBRARY_DIR = ../../../../..
 USER_CXX_FLAG += -I$(SHLS_LIBRARY_DIR)/dsp/include
 USER_CXX_FLAG += -O3 -pg -Wall -Wno-strict-aliasing -Wno-unused-label -Wno-unknown-pragmas -Wno-attributes 
 USER_CXX_FLAG += -I$(SHLS_ROOT_DIR)/smarthls-library 
+USER_CXX_FLAG += -D__N_ELEM=1600
 
 # BeagleV-Fire board only supports HLS_ALLOC_NONCACHED
 USER_CXX_FLAG += -DDDR_REGION=HLS_ALLOC_NONCACHED

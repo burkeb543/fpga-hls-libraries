@@ -6,7 +6,7 @@ SHLS_LIBRARY_DIR =  ../../../../..
 
 USER_CXX_FLAG += -I$(SHLS_LIBRARY_DIR)
 USER_CXX_FLAG += -I$(SHLS_ROOT_DIR)/smarthls-library 
-USER_CXX_FLAG += -D__N_ELEM=6400
+USER_CXX_FLAG += -D__N_ELEM=1600
 
 LOCAL_CONFIG = -legup-config=config.tcl
 
